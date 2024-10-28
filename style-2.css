@@ -1,0 +1,12 @@
+body {
+    background-color: #f5f5dc;
+    color: #000;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
