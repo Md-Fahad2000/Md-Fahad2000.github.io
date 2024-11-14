@@ -1,0 +1,33 @@
+/* Basic styling for page 7 */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffe4e1;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
